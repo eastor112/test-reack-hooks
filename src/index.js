@@ -1,17 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import { Padre } from './components/07-tarea-memo/Padre';
+// import CallbackHook from './components/useMemo/CallbackHook';
+// import Memorize from './components/memo/Memorize';
+// import MemoHook from './components/useMemo/MemoHook';
+// import LayoutEffect from './components/useLayoutEffect/LayoutEffect';
+// import SimpleForm from './components/useEffect/SimpleForm';
+// import FetchQuote from './components/useFetch/FetchQuote';
+// import FocusScreen from './components/useRef/FocusScreen';
+// import RealUseRef from './components/useRef/RealUseRef';
 
-ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-  document.getElementById('root')
-);
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
+ReactDOM.render(<Padre />, document.getElementById('root'));
