@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 // import { Padre } from './components/07-ejercicio-memo/Padre';
-import TodoApp from './components/08-useReducer/TodoApp';
+// import TodoApp from './components/08-useReducer/TodoApp';
 // import CallbackHook from './components/useMemo/CallbackHook';
 // import Memorize from './components/memo/Memorize';
 // import MemoHook from './components/useMemo/MemoHook';
@@ -11,5 +11,8 @@ import TodoApp from './components/08-useReducer/TodoApp';
 // import FocusScreen from './components/useRef/FocusScreen';
 // import RealUseRef from './components/useRef/RealUseRef';
 
+import MainApp from './components/09-useContext/MainApp';
 
-ReactDOM.render(<TodoApp />, document.getElementById('root'));
+
+
+ReactDOM.render(<MainApp />, document.getElementById('root'));
