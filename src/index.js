@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { Padre } from './components/07-tarea-memo/Padre';
+// import { Padre } from './components/07-ejercicio-memo/Padre';
+import TodoApp from './components/08-useReducer/TodoApp';
 // import CallbackHook from './components/useMemo/CallbackHook';
 // import Memorize from './components/memo/Memorize';
 // import MemoHook from './components/useMemo/MemoHook';
@@ -11,4 +12,4 @@ import { Padre } from './components/07-tarea-memo/Padre';
 // import RealUseRef from './components/useRef/RealUseRef';
 
 
-ReactDOM.render(<Padre />, document.getElementById('root'));
+ReactDOM.render(<TodoApp />, document.getElementById('root'));
